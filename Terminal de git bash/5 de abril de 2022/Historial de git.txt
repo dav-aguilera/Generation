@@ -1,0 +1,88 @@
+    1  pwd
+    2  ls
+    3  cd downloads/
+    4  less cv.docx
+    5  touch readme.txt
+    6  less readme.txt
+    7  nano readme.txt
+    8  less readme.txt
+    9  vim readme.txt
+   10  cd ..
+   11  cd --
+   12  ls
+   13  cd downloads/
+   14  mkdir openme
+   15  echo 1
+   16  rm openme
+   17  ls
+   18  cd openme
+   19  rm openme
+   20  rm openme/
+   21  cd ..
+   22  rm openme/
+   23  rmdir openme/
+   24  rm readme.txt
+   25  ls
+   26  ls *.txt
+   27  touch readme.txt
+   28  mkdir openme
+   29  mv readme.txt openme/
+   30  ls
+   31  cd openme/
+   32  ls
+   33  cd --
+   34  cd downloads
+   35  grep console.log
+   36  cd downloads/openme
+   37  grep Hola readme.txt
+   38  nano readme.txt
+   39  grep Hola readme.txt
+   40  grep -c Hola readme.txt
+   41  > readme.txt
+   42  nano readme.txt
+   43  ls
+   44  nano readme.txt
+   45  >> readme.txt
+   46  nano readme.txt
+   47  history > readme.txt
+   48  nano readme.txt
+   49  man ls
+   50  man ls
+   51  man head
+   52  mann head
+   53  manu head
+   54  cd downloads
+   55  touch index.html
+   56  mkdr -p assets/css/
+   57  mkdir -p assets/css/
+   58  ls
+   59  ls -la
+   60  git --version
+   61  git config -l
+   62  git config --global
+   63  git config --global user.name "Dav Aguilera"
+   64  git config --global user.email "dav_aguilera@outlook.com"
+   65  git --version
+   66  git config -l
+   67  cd /e/
+   68  ls
+   69  cd software/
+   70  ls
+   71  cd Programación/
+   72  ls
+   73  cd Generation/
+   74  ls
+   75  git init
+   76  git status
+   77  ls
+   78  git add Algoritmos/
+   79  git status
+   80  git commit -m "Primer commit"
+   81  git log
+   82  git status
+   83  git add .
+   84  git status
+   85  git commit -m "Segundo commit"
+   86  git log
+   87  git log --oneline
+   88  history > history.txt
