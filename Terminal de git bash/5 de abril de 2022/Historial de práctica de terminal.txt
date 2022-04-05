@@ -1,0 +1,47 @@
+    1  pwd
+    2  ls
+    3  cd downloads/
+    4  less cv.docx
+    5  touch readme.txt
+    6  less readme.txt
+    7  nano readme.txt
+    8  less readme.txt
+    9  vim readme.txt
+   10  cd ..
+   11  cd --
+   12  ls
+   13  cd downloads/
+   14  mkdir openme
+   15  echo 1
+   16  rm openme
+   17  ls
+   18  cd openme
+   19  rm openme
+   20  rm openme/
+   21  cd ..
+   22  rm openme/
+   23  rmdir openme/
+   24  rm readme.txt
+   25  ls
+   26  ls *.txt
+   27  touch readme.txt
+   28  mkdir openme
+   29  mv readme.txt openme/
+   30  ls
+   31  cd openme/
+   32  ls
+   33  cd --
+   34  cd downloads
+   35  grep console.log
+   36  cd downloads/openme
+   37  grep Hola readme.txt
+   38  nano readme.txt
+   39  grep Hola readme.txt
+   40  grep -c Hola readme.txt
+   41  > readme.txt
+   42  nano readme.txt
+   43  ls
+   44  nano readme.txt
+   45  >> readme.txt
+   46  nano readme.txt
+   47  history > readme.txt
